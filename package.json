@@ -10,7 +10,8 @@
     "precommit": "lint-staged",
     "test": "jest --passWithNoTests",
     "test:watch": "yarn test --watch",
-    "test:staged": "yarn test --findRelatedTests"
+    "test:staged": "yarn test --findRelatedTests",
+    "test:push": "yarn test --coverage"
   },
   "keywords": [],
   "author": "",
